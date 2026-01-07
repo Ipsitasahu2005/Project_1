@@ -1,0 +1,8 @@
+/* Tailwind utility extraction */
+.filter-btn {
+  @apply px-3 py-1 rounded border bg-white text-gray-800 
+         dark:bg-gray-800 dark:text-white;
+}
+.filter-btn-active {
+  @apply bg-blue-500 text-white dark:bg-blue-600;
+}   
